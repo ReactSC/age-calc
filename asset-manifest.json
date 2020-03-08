@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/age-calc/static/css/main.712cea89.chunk.css",
+    "main.js": "/age-calc/static/js/main.a4be0b26.chunk.js",
+    "main.js.map": "/age-calc/static/js/main.a4be0b26.chunk.js.map",
+    "runtime-main.js": "/age-calc/static/js/runtime-main.f9098b3f.js",
+    "runtime-main.js.map": "/age-calc/static/js/runtime-main.f9098b3f.js.map",
+    "static/js/2.c5b6f1d1.chunk.js": "/age-calc/static/js/2.c5b6f1d1.chunk.js",
+    "static/js/2.c5b6f1d1.chunk.js.map": "/age-calc/static/js/2.c5b6f1d1.chunk.js.map",
+    "index.html": "/age-calc/index.html",
+    "precache-manifest.57edc20b25d832b88efa518c29f5df2d.js": "/age-calc/precache-manifest.57edc20b25d832b88efa518c29f5df2d.js",
+    "service-worker.js": "/age-calc/service-worker.js",
+    "static/css/main.712cea89.chunk.css.map": "/age-calc/static/css/main.712cea89.chunk.css.map",
+    "static/js/2.c5b6f1d1.chunk.js.LICENSE.txt": "/age-calc/static/js/2.c5b6f1d1.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f9098b3f.js",
+    "static/js/2.c5b6f1d1.chunk.js",
+    "static/css/main.712cea89.chunk.css",
+    "static/js/main.a4be0b26.chunk.js"
+  ]
+}
