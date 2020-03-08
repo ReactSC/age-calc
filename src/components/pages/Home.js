@@ -79,17 +79,18 @@ const Home = () =>{
     
     const initTimeStamp = init.valueOf()
     const finalTimeStamp = final.valueOf()
-    const defTimeStamp = initTimeStamp >0 ? finalTimeStamp - initTimeStamp : finalTimeStamp + initTimeStamp ;
+    // const defTimeStamp = initTimeStamp >0 ? finalTimeStamp - initTimeStamp : finalTimeStamp + initTimeStamp ;
+    const defTimeStamp = finalTimeStamp - initTimeStamp
     
     setAge({
       init: getTime(initTimeStamp),
       def: getTime(defTimeStamp),
       final: getTime(finalTimeStamp)
     })
-  
     setOpen(true)
   }
-  
+  const { year, month, day } = age.def;
+
   return(
     <Fragment>
       <Formik
@@ -123,9 +124,9 @@ const Home = () =>{
             Your Age
           </Typography>
           <Typography variant="h6" style={{textAlign:'center',marginTop:10}} >
-            {`${ age.def.year } year 
-            ${ age.def.month } month 
-            ${ age.def.day } days`}
+            { year? year + ' year ':null}
+            {+ month? month + ' month ':null}
+            {+ day && day > 1 ? day + ' days' : day && day === 1 ? day+' day': null }
           </Typography>
         </Container>
       </Dialog>
