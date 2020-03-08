@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Age Calculator",
+  "name": "Age Calculator by SChoolWab",
   "icons": [
     {
       "src": "favicon.ico",
